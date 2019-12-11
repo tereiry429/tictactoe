@@ -1,12 +1,21 @@
+let currentPlayer = "X"
+let totalNum = 0
+let gameOver = false
 
-
-
-
-
-
+function performLogic(buttonId, titleId){
+    $(buttonId).hide();
+    $(titleId).text(currentPlayer);
+    
+ 
+    // removes the button of the corresponding buttonId,
+    // and changes the text of the div that is the tileId to the player variable.
+    // function that will change the current player to either "X" or "O" depending on the current player. 
+    //Decide where to put this function.
+}
 
 $("#button1").click(function() {
     performLogic("#button1","#tile1");
+    console.log(mood);
 });
 
 $("#button2").click(function() {
